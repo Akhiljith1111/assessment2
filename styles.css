@@ -1,5 +1,4 @@
 body {
-display: inline-block;
 background: #F8F9FA;
 width: 100%;
 height: 900px;
@@ -47,9 +46,7 @@ h2{
     margin-left: 243px;
 }
 
-.maintain,
-.payments,
-.reports {
+.header-img {
     margin-left: 32px;
     margin-top: 18px;
     margin-bottom: 18px;
@@ -83,9 +80,8 @@ h1{
 .recently {
     font-size: 24px;
 }
-.search,
-.setup,
-.help{
+
+.header-img-two {
     margin-top: 18px;
     margin-bottom: 18px;
     margin-left: 24px;
@@ -102,6 +98,7 @@ h1{
 }
 
 #second-section{
+    text-align: center;
     border: 1px solid none;
     border-radius: 8px;
     background-color: #007548;
@@ -109,10 +106,7 @@ h1{
     width: 296px;
 }
 
-.frame,
-.frame-one,
-.frame-two,
-.frame-three{
+.section-img {
     padding-left: 132px;
     padding-right: 132px;
     padding-top: 40px;
@@ -124,8 +118,7 @@ h1{
     font-weight: 600;
     color: white;
 }
-.name-two,
-.name-four{
+.name-two {
     text-align: center;
     margin-left: 89px;
     margin-right: 89px;
@@ -151,9 +144,7 @@ p{
     margin-bottom: 68px
 }
 
-.para-one,
-.para-two,
-.para-three{
+.para-one {
     font-size: 14px;
     color: black;
     margin-left: 85px;
@@ -165,7 +156,7 @@ p{
 
 #third-section,
 #fourth-section,
-#fifth-section{
+#fifth-section {
     text-align: center;
     background-color: #FFFFFF;
     border: 1px solid none;
@@ -224,11 +215,11 @@ section{
 }
 
 .img-one{
- height: 20px;
-width: 20px;
-margin-top: 24px;
-margin-right: 252px;
-margin-left: 24px;
+    height: 20px;
+    width: 20px;
+    margin-top: 24px;
+    margin-right: 252px;
+    margin-left: 24px;
 }
 
 .efg{
