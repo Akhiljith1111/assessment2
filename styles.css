@@ -1,7 +1,6 @@
 body {
 background: #F8F9FA;
-width: auto;
-height: auto;
+width: 100%;
 left: 719px;
 top: 1185px;
 }
@@ -87,10 +86,10 @@ h1{
     margin-right: 24px;
 }
 
-.header-last {
+.header-for {
     display: block;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     height: auto;
 }
 
@@ -300,5 +299,23 @@ footer{
     font-weight: 400;
     margin-top: 0;
     margin-left: 12px;
+}
 
+
+@media  screen and (max-width: 850px) {    
+header {
+    padding: 0;
+    background-color: #343A40;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-main-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 }
