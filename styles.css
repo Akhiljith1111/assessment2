@@ -9,17 +9,27 @@ margin-top: 0;
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: auto;
     background-color: #343A40;
     color: white;
     align-items: center;
-    padding-left: 40px;
 }
+
 #header-one,
 #header-two,
 #header-three {
     display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+
+#header-one{
+    margin-left: 0;
+}
+
+.main-sec {
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -102,11 +112,9 @@ h1{
 }
 
 .logo-name{
-    display: inline-flex;
-    flex-wrap: wrap;
     padding: 12px;
     border: 0px solid black;
-    border-radius: 100px;
+    border-radius: 50px;
     background-color: #28A745;
     margin: 10px;
     color: white;
