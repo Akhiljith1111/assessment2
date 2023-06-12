@@ -3,14 +3,13 @@ background: #F8F9FA;
 width: 100%;
 left: 719px;
 top: 1185px;
+margin-top: 0;
 }
 
 header {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: auto;
+    justify-content: space-evenly;
     width: auto;
     background-color: #343A40;
     color: white;
@@ -20,7 +19,7 @@ header {
 #header-one,
 #header-two,
 #header-three {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
 }
 
@@ -102,7 +101,9 @@ h1{
     height: auto;
 }
 
-.john{
+.logo-name{
+    display: inline-flex;
+    flex-wrap: wrap;
     padding: 12px;
     border: 0px solid black;
     border-radius: 100px;
