@@ -7,6 +7,7 @@ margin-top: 0;
 }
 
 header {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -293,6 +294,7 @@ section{
 }
 
 footer{
+    position: relative;
     margin-top: 88px;
     background-color: #343A40;
     width: auto;
