@@ -1,8 +1,6 @@
 body {
 background: #F8F9FA;
 width: 100%;
-left: 719px;
-top: 1185px;
 margin-top: 0;
 margin-left: 0;
 }
@@ -295,15 +293,31 @@ section{
 }
 
 footer {
+    justify-content: space-around;
+    align-items: center;
     margin-top: 88px;
     background-color: #343A40;
     width: auto;
+    height: 80px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
     color: white;
+    font-family: Roboto;
 }
+
+footer > h2, h3, h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+footer > h1 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
 
 .zzz{
     margin-left: 12px;
